@@ -1,4 +1,4 @@
-# Add ReadME to My Favorite Things
+# Add ReadME
 
 ### Practice creating Sticky NavBar, 05.17.2018
 

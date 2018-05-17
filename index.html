@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sticky Animated Navigation Bar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js">
+    </script>
+    <script type="text/javascript">
+        $(window).on('scroll'), function() {
+          if($(window).scrollTop()) {
+            $('nav').addClass('black');
+          }
+          else {
+            $('nav').removeClass('black');
+          }
+        })
+    </script>
+  </head>
+  <body>
+      <div class="wrapper">
+        <nav>
+          <div class="logo">LOGO</div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a class="active" href="#">Log In</a></li>
+          <ul>
+        </nav>
+        <section class="sec1"></section>
+        <section class="content">
+          <p>One love, one heart Let's get together and feel all right
+          Hear the children crying (One love)
+          Hear the children crying (One heart)
+          Sayin', "Give thanks and praise to the Lord and I will feel all right
+          Sayin', "Let's get together and feel all right
+          Whoa, whoa, whoa, whoa</p>
+          <p>Let them all pass all their dirty remarks (one love) There is one question I'd really love to ask (one heart)
+          Is there a place for the hopeless sinner
+          Who has hurt all mankind just to save his own?
+          Believe me</p>
+          <p>One love, one heart Let's get together and feel all right
+          As it was in the beginning (one love)
+          So shall it be in the end (one heart)
+          Alright, give thanks and praise to the Lord and I will feel all right
+          Let's get together and feel all right</p>
+       </section>
+
+
+
+
+
+
+
+
+</body>
+</html>
